@@ -1,0 +1,15 @@
+# Vendor software (proprietary, fetched by scripts/fetch_vendor.sh)
+vendor/
+# Per-operator glove calibrations and local test reports
+calib/
+logs/
+# Build / cache outputs
+tools/manus_pair/manus_pair
+__pycache__/
+*.pyc
+*.mcal
+# Local tool / editor settings
+.claude/settings.local.json
+.vscode/
+.idea/
+*.swp
